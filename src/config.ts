@@ -16,8 +16,7 @@ else {
   configFile = {
     openaiApiKey: process.env.OPENAI_API_KEY,
     openaiOrganizationID: process.env.OPENAI_ORGANIZATION_KEY,
-    chatgptTriggerKeyword: ChatGPT,
-    //chatgptTriggerKeyword: process.env.CHATGPT_TRIGGER_KEYWORD,
+    chatgptTriggerKeyword: process.env.CHATGPT_TRIGGER_KEYWORD,
   };
 }
 
